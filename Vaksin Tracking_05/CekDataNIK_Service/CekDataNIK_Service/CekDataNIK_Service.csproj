@@ -71,8 +71,8 @@
   <ItemGroup>
     <Content Include="PendudukDataCS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>PendudukDataCS.Context.cs</LastGenOutput>
       <DependentUpon>PendudukDataCS.edmx</DependentUpon>
+      <LastGenOutput>PendudukDataCS.Context.cs</LastGenOutput>
     </Content>
     <Content Include="PendudukDataCS.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -112,11 +112,11 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <EntityDeploy Include="PendudukDataCS.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>PendudukDataCS.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="packages.config" />
     <Content Include="PendudukDataCS.edmx.diagram">
       <DependentUpon>PendudukDataCS.edmx</DependentUpon>
     </Content>
