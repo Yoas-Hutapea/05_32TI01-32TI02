@@ -326,13 +326,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\Vaksin_Entities.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Vaksin_Entities.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\Vaksin_Entities.edmx.diagram">
-      <DependentUpon>Vaksin_Entities.edmx</DependentUpon>
-    </Content>
     <Content Include="Assets\font\Flaticon.eot" />
     <Content Include="Assets\font\Flaticon.ttf" />
     <Content Include="Assets\font\Flaticon.woff" />
@@ -385,6 +378,13 @@
     <Content Include="Connected Services\RegistrasiVaksin_Service\VaksinTracking_05.RegistrasiVaksin_Service.VaksinData.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <EntityDeploy Include="Models\Vaksin_Entities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Vaksin_Entities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Vaksin_Entities.edmx.diagram">
+      <DependentUpon>Vaksin_Entities.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -418,6 +418,7 @@
     <Content Include="Views\User\updateVaksin.cshtml" />
     <Content Include="Views\User\vaksinDigunakan.cshtml" />
     <Content Include="Views\User\VaksinSampai.cshtml" />
+    <Content Include="Views\User\Vaksin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

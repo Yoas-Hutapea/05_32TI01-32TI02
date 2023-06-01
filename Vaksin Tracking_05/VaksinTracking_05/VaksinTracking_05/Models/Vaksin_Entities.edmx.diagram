@@ -4,19 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a0b5c6c1ec3b4127a17c777cea43e53f" Name="Diagram1">
-        <EntityTypeShape EntityType="VaksinTracking_05Model.Akun" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.AkunRoleMapping" Width="1.5" PointX="8" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.Data_Pasien" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.Data_Penduduk" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.Masyarakat" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.RoleMaster" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="VaksinTracking_05Model.VaksinData" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+      <Diagram DiagramId="c18e7c47f60a4c73b3105c8f37e5f33c" Name="Diagram1">
+        <EntityTypeShape EntityType="VaksinTracking_05Model.Akun" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VaksinTracking_05Model.AkunRoleMapping" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VaksinTracking_05Model.RoleMaster" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
         <AssociationConnector Association="VaksinTracking_05Model.FK__AkunRoleM__id_ak__145C0A3F" ManuallyRouted="false" />
         <AssociationConnector Association="VaksinTracking_05Model.FK__AkunRoleM__id_ro__15502E78" ManuallyRouted="false" />
-        <AssociationConnector Association="VaksinTracking_05Model.FK__Data_Pasi__id_va__1ED998B2" ManuallyRouted="false" />
-        <AssociationConnector Association="VaksinTracking_05Model.FK__Data_Pasi__nik_p__1FCDBCEB" ManuallyRouted="false" />
-        <AssociationConnector Association="VaksinTracking_05Model.FK__Data_Pendud__nik__1BFD2C07" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
